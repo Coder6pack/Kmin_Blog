@@ -22,7 +22,7 @@ const config: Config = {
     },
   ],
   // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
+  url: "http://127.0.0.1:3000",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -71,6 +71,12 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
+    algolia: {
+      apiKey: "145c5ab3b12bf6267eda10de513918d7",
+      indexName: "dev_Docusaurus_KminBlog",
+      contextualSearch: true,
+      appId: "YKH0XOGLAE",
+    },
     navbar: {
       title: "Kmin Blog",
       logo: {
@@ -86,10 +92,6 @@ const config: Config = {
           label: "Tutorial",
         },
         { to: "/blog", label: "Blog", position: "left" },
-        {
-          type: "search",
-          position: "right",
-        },
         {
           href: "https://github.com/facebook/docusaurus",
           label: "GitHub",

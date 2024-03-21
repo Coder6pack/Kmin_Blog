@@ -20,7 +20,7 @@ export default function PostList() {
           ))}
         </div>
       </div>
-      <div className="font-bold text-3xl mb-6">Blo</div>
+      <div className="font-bold text-3xl mb-6">Blog</div>
       <div className="grid grid-cols-12 gap-2 -5">
         <div className="col-span-6">
           {posts.map((post, index) => (
