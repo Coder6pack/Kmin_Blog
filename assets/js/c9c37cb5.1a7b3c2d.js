@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkmin_blog=self.webpackChunkkmin_blog||[]).push([[6972],{7563:o=>{o.exports=JSON.parse('{"permalink":"/Kmin_Blog/blog/tags/facebook","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
