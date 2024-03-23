@@ -3,10 +3,28 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: "Kmin Blog",
-  tagline: "Dinosaurs are cool",
-  favicon: "img/favicon.ico",
+  title: "Kmin",
+  tagline: "Kmin Academy Blog",
+  favicon: "img/kmin-logo.svg",
 
+  // Set the production url of your site here
+  url: "http://Coder6pack.github.io",
+  // Set the /<baseUrl>/ pathname under which your site is served
+  // For GitHub pages deployment, it is often '/<projectName>/'
+  baseUrl: "/Kmin_Blog/",
+  organizationName: "Coder6pack", // Usually your GitHub org/user name.
+  projectName: "Kmin_Blog", // Usually your repo name.
+  trailingSlash: false,
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+
+  // Even if you don't use internationalization, you can use this field to set
+  // useful metadata like html lang. For example, if your site is Chinese, you
+  // may want to replace "en" with "zh-Hans".
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en"],
+  },
   // insert tailwind css
   plugins: [
     async function myPlugin(context, options) {
@@ -21,28 +39,6 @@ const config: Config = {
       };
     },
   ],
-  // Set the production url of your site here
-  url: "http://127.0.0.1:3000",
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/",
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
-
-  onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
-
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
-  i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
-  },
-
   presets: [
     [
       "@docusaurus/preset-classic",

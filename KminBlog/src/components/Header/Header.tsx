@@ -6,7 +6,7 @@ export default function Header() {
     <header className="bg-[url(https://uploads-ssl.webflow.com/63201db742cb9549003219e4/633689fe5bf8c228c472986d_Case%20study%20-%201%20\(1\).svg)] bg-repeat bg-cover">
       <div className="columns-6xl mx-32">
         <div className="py-5">
-          <Link>
+          <Link to="/">
             <img
               src="https://uploads-ssl.webflow.com/63201db742cb9549003219e4/63468662026df00053eb9492_white_logo.svg"
               alt="faba-img"

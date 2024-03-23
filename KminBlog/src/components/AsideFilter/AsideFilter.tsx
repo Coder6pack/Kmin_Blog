@@ -29,19 +29,26 @@ export default function AsideFilter() {
         Topics
       </div>
       <div className="pb-6">
-        <Link className="font-bold text-blue cursor-pointer hover:text-blue mb-6">
+        <Link
+          to="/"
+          className="font-bold text-blue cursor-pointer hover:text-blue mb-6"
+        >
           All Topics
         </Link>
       </div>
       <div className="pb-6">
-        <Link className="hover:text-blue cursor-pointer">Tutorial</Link>
+        <Link to="/" className="hover:text-blue cursor-pointer">
+          Tutorial
+        </Link>
       </div>
 
       <div className="pb-6">
-        <Link className="hover:text-blue cursor-pointer">Insights</Link>
+        <Link to="/" className="hover:text-blue cursor-pointer">
+          Insights
+        </Link>
       </div>
       <div className="pb-6">
-        <Link className="hover:text-blue cursor-pointer">
+        <Link to="/" className="hover:text-blue cursor-pointer">
           Coding Principles
         </Link>
       </div>

@@ -11,7 +11,7 @@ export default function PostItem({ post }: Props) {
     <div className="flex p-4 border border-lineGray rounded-xl mb-6">
       <div className="w-2/3">
         <div className="uppercase font-bold text-lg py-4 pr-8 text-wrap">
-          <Link to="/Detail">{post.title}</Link>
+          <Link to="/">{post.title}</Link>
         </div>
         <div className="mb-6">
           <Link className="bg-bgBlue px-2 py-1 rounded-md text-white mr-2 cursor-pointer hover:text-white">

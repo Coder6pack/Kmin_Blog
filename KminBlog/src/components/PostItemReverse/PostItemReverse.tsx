@@ -18,7 +18,7 @@ export default function PostItemReverse({ post }: Props) {
       </div>
       <div className="w-2/3">
         <div className="uppercase font-bold text-lg py-4 text-end pl-8 text-wrap">
-          <Link to="/Detail">{post.title}</Link>
+          <Link to="/">{post.title}</Link>
         </div>
         <div className="mb-6 text-end">
           <Link className="bg-bgBlue px-2 py-1 rounded-md text-cyan-500 mr-2 cursor-pointer hover:text-white">

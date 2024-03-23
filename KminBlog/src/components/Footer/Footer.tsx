@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="columns-6xl mx-32">
         <div className="flex justify-between">
           <div className="basis-1/4">
-            <Link>
+            <Link to="/">
               <img
                 src="https://uploads-ssl.webflow.com/63201db742cb9549003219e4/63468662026df00053eb9492_white_logo.svg"
                 alt="faba-img"
@@ -22,7 +22,7 @@ export default function Footer() {
           <div className="basis-1/4">
             <div className="text-white font-bold">Join Our Team</div>
             <div className="text-white mt-4 mb-3 pb-6">
-              <Link>Careers</Link>
+              <Link to="/">Careers</Link>
             </div>
           </div>
           <div className="basis-1/4">
